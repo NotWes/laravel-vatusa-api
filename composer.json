@@ -1,0 +1,12 @@
+{
+    "name": "notwes/laravel-vatusa-api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wes Loeffler",
+            "email": "wes.loeffler@zlcartcc.com"
+        }
+    ],
+    "require": {}
+}
