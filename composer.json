@@ -1,5 +1,6 @@
 {
     "name": "notwes/laravel-vatusa-api",
+    "description": "",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -8,5 +9,17 @@
             "email": "wes.loeffler@zlcartcc.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "NotWes\\LaravelVatusaApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NotWes\\LaravelVatusaApi\\LaravelVatusaApiServiceProvider"
+            ]
+        }
+    }
 }
