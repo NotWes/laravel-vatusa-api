@@ -18,10 +18,10 @@ class facility {
 
     public function getFacilityInformation($facility){
         $facility = file_get_contents('https://api.vatusa.net/v2/facility/'.$facility);
-        $facility = json_decode($facility);
+        //$facility = json_decode($facility);
         $facility = $facility->data;
 
-        return $facility;
+        return print_r($facility);
     }
 
     /**
